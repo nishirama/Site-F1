@@ -1,0 +1,65 @@
+<!DOCTYPE html/>
+
+<html>
+	<head>
+	<title>Vos avis</title>
+		<meta charset="utf-8" />
+		<title> Mon premier formulaire </title>
+		<link rel="icon" type="image/x-icon" href="image/favicone.png">
+		<link href="formulairecss.css" rel="stylesheet" type="text/css"/>
+		<link href="barre_de_nav.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+	    <div id="navbar">
+			<a class="pilote-nav" href="Site.html">Accueil</a>
+			<a class="pilote-nav" href="pilote.html">Les plus grands pilotes</a>
+			<a class="ecuries-nav" href="ecuries_2023.html">Les écuries 2023</a>
+			<a class="formulaire-nav" href="formulaire.html">Vos Avis</a>
+			
+        </div>
+	<div id = "parent">
+		<form id="form" action="" method="POST">
+			<br>
+			<div id="divForm">
+				<h2> Vos avis</h2>
+				<p><label for="idPrénom" > Prénom :</label><br>
+				<input type="test" name="prénom" id="idPrénom" size="30" maxlength="50" required />
+			<br>
+			<label for="idMdp" > Mot de passe :</label><br>
+			<input type="text" name="mot de passe" id="Mdp" size="30" maxlength="50" required />
+			<br>
+			<label for="iDEmail" > Adresse mail :</label><br>
+			<input type="text" name="Adresse Email" id="idEmail" size="30" maxlength="50" required />
+			<br>
+			<input type="radio" name="sexe" value="M" checked /> Homme
+			<input type="radio" name="sexe" value="M" checked /> Femme
+			<br>
+			<label for="idVie" > Vos avis sur le site :</label><br>
+			<textarea name="vie" rows="10" cols="30" />
+			</textarea>
+			<br>
+			<label for="iDEmail" > Votre pilote préféré :</label><br>
+			<input type="text" name="Adresse Email" id="idEmail" size="30" maxlength="50" required />
+			<br>
+			<label>  Votre écurie préféré :</label><br>
+			<select size="5" name="Pays[]" multiple>
+				<option value="F"> Alpine </option>
+				<option value="T"> Ferrari </option>
+				<option value="S"> Mercedes-Benz Amg </option>
+				<option value="C"> Aston Martin </option>
+				<option value="L"> Alpha Romeo </option>
+				<option value="L"> McLaren </option>
+				<option value="L"> Alpha Tauri </option>
+				<option value="L"> Red Bull </option>
+				<option value="L"> Williams Racing </option>
+				<option value="L"> Hass </option>
+			</select>
+			<br></br>
+			<input type="reset" value="Annuler" name="BtA" />
+			<input type="submit" value="Envoyer" name="BtE" />
+			</p>
+			</div>
+		</form>
+		</div>
+	</body>
+</html>
