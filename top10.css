@@ -1,0 +1,17 @@
+h1{
+font-size: 49px;
+text-align:center;
+}
+
+h2{
+text-align:center;
+}
+
+p{
+text-align:center;
+}
+
+body{
+	background-color: #BF00FF;
+	overflow-x: hidden;
+}
